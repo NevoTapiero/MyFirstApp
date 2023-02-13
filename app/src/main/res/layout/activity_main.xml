@@ -10,17 +10,19 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:background="@drawable/textview_background"
         android:id="@+id/SignInHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SignIn"
         android:gravity="center"
         android:layout_margin="50dp"
-        android:textColor="@color/design_default_color_primary_dark"
+        android:textColor="#DDDD"
         android:textSize="100dp">
     </TextView>
 
     <EditText
+        android:background="@drawable/textview_background"
         android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,6 +34,7 @@
     </EditText>
 
     <EditText
+        android:background="@drawable/textview_background"
         android:id="@+id/PassWord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,6 +53,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:background="@drawable/buttons_background"
             android:id="@+id/SignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,6 +65,7 @@
         </Button>
 
         <Button
+            android:background="@drawable/buttons_background"
             android:id="@+id/SignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
